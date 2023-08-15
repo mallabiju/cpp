@@ -28,6 +28,7 @@ public:
     void div()
     {
         cout << "Quotient while dividing " << a << " by " << b << " is = " << a / b;
+        // cout << "Quotient while dividing " << a << " by " << b << " is = " << (float)a / (float)b;
     }
 };
 
