@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-class student
+class Student
 {
 private:
     int roll;
@@ -20,7 +20,7 @@ public:
 
 int main()
 {
-    student s1, s2;
+    Student s1, s2;
     s1.getroll();
     s2.getroll();
     s1.display();
