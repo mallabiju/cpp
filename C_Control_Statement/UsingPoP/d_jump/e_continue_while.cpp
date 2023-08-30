@@ -3,15 +3,18 @@ using namespace std;
 
 int main()
 {
-    int a = 1;
-    while (a <= 10)
+    int a = 0;
+    while (a < 10)
     {
+        a++;
         if (a == 4)
         {
             continue;
         }
-        cout << a << endl;
-        a++;
+        else
+        {
+            cout << a << endl;
+        }
     }
     return 0;
 }

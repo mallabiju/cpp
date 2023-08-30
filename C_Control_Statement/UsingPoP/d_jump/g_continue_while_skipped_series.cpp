@@ -4,16 +4,18 @@ using namespace std;
 
 int main()
 {
-    int num = 30;
-    while (num >= 2)
+    int num = 32;
+    while (num >=3)
     {
+        num -= 2;
         if (num == 26)
         {
             continue;
         }
-        cout << num << endl;
-        num -= 2;
-        
+        else
+        {
+            cout << num << endl;
+        }
     }
     return 0;
 }

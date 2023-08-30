@@ -3,15 +3,19 @@ using namespace std;
 
 int main()
 {
-    int a = 1;
+    int a = 0;
     do
     {
+        a++;
         if (a == 4)
         {
             continue;
         }
-        cout << a << endl;
-        a++;
-    } while (a <= 10);
+        else
+        {
+            cout << a << endl;
+        }
+
+    } while (a < 10);
     return 0;
 }
