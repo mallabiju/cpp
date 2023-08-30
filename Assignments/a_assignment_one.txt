@@ -1,0 +1,11 @@
+Assingnment 1 (After A_Basic_IO_Primitive, B_Basic_IO_Class_n_Object and C_Control_Statement)
+----------------------------------------------------------------------------------------------
+1. Explain the use of while loop and continue statement with problem scenario and its possible solution. (Include 5 possible solutions, with or without using continue statement).
+2. Define control statement. Exemplify if, looping, switch and jump statement with syntax and flowchart diagram.
+3. Differentiate between do while and while loop with appropriate examples.
+4. Which is the most efficient loop in C++. Verify your statement with examples.
+5. Differentiate between break and continue statement with examples.
+
+Assigned : 2080/05/13, Wednesday
+Deadline : 2080/05/21, Thursday
+
