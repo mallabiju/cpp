@@ -1,4 +1,4 @@
-Assingnment 1 (After A_Basic_IO_Primitive, B_Basic_IO_Class_n_Object and C_Control_Statement)
+Handwritten Assingnment 1 (After A_Basic_IO_Primitive, B_Basic_IO_Class_n_Object and C_Control_Statement)
 ----------------------------------------------------------------------------------------------
 1. Explain the use of while loop and continue statement with problem scenario and its possible solution. (Include 5 possible solutions, with or without using continue statement).
 2. Define control statement. Exemplify if, looping, switch and jump statement with syntax and flowchart diagram.
