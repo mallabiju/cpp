@@ -1,30 +1,19 @@
 #include <iostream>
 using namespace std;
 
-int &retByRef(int &n)
-{
-    cout << "\nThe value of n =" << n << endl;
-    cout << "The address of n =" << &n << endl;
-    return n;
-}
+int num; // global variable
+
+int &test(); // reference function declaration
 
 int main()
 {
-    int a = 15;
-    int &b = retByRef(a);
-
-    cout << "\nThe value of a =" << a << endl;
-    cout << "The address of a =" << &a << endl;
-
-    cout << "\nThe value of b =" << b << endl;
-    cout << "The address of b =" << &b << endl;
-
-    retByRef(a) = 55;
-    cout << "\nThe value of a =" << a << endl;
-    cout << "The address of a =" << &a << endl;
-
-    cout << "\nThe value of b =" << b << endl;
-    cout << "The address of b =" << &b << endl;
-
+    test() = 57; // its like num = 57;
+    cout << "num = " << num;
     return 0;
+}
+
+int &test()
+{
+    // returns the address of num variable
+    return num;
 }

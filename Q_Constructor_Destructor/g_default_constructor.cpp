@@ -15,9 +15,7 @@ public:
 
 // Student::Student()
 // {
-//     {
-//         roll = 12;
-//     }
+//     roll = 12;
 // }
 
 int main()
