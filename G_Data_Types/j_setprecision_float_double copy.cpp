@@ -12,7 +12,7 @@ int main()
     // cout << setprecision(5) << num_float << endl; // 1.1235
     // cout << setprecision(15) << num_double << endl; //2.12345678912346
     cout << setprecision(9) << num_float << endl;
-    cout << setprecision(20) << num_double << endl;d
+    cout << setprecision(20) << num_double << endl;
     return 0;
 }
 /* 
