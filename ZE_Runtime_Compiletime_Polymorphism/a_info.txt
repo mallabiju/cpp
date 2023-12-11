@@ -1,0 +1,8 @@
+Introduction
+------------
+The word “polymorphism” means having many forms derived from the Greek word. In simple words, we can define polymorphism as the ability of a message to be displayed in more than one form. A real-life example of polymorphism is a person who at the same time can have different characteristics.
+
+Types of Polymorphism
+---------------------
+Compile-time/Static Polymorphism or Early/ Static Binding : achieved by function/method overloading or operator overloading.
+Runtime/Dynamic Polymorphism or Late/ Static Binding : achieved by Function/ method Overriding or Function/ method Overriding using virtual functions..
