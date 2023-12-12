@@ -6,14 +6,22 @@ class staticDemo
 {
 public:
     //declaration
-    static int num;
+    int static num,num1;
+     static void d();
 };
 
 //defination
-int staticDemo::num = 78;
+void staticDemo::d(){
+    cout<<"Sum ="<<num+num1;
+} 
+int staticDemo::num;
+int staticDemo::num1;
 
 int main()
 {
-    cout << "The value of num = " << staticDemo::num << endl;
+    // cin>> staticDemo::num;
+    cin>>staticDemo::num1;
+    cin>>staticDemo::num;
+    staticDemo::d();
     return 0;
 }

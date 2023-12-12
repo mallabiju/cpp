@@ -14,7 +14,7 @@ int main()
 
     // de-allocating
     delete ptr;
-    cout << "Value stored in ptr after de-allocating = " << *ptr;
+    cout << "Value stored in ptr after de-allocating = " << ptr;
 
     ptr = NULL; // dangling pointer 
 

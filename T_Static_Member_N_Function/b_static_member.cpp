@@ -11,6 +11,7 @@ public:
     // use of static method to display the value
     static void show()
     {
+        cin>>num;
         cout << "The value of num = " << num << endl;
     }
 };
