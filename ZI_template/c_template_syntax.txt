@@ -1,0 +1,23 @@
+Function Template
+-------------------
+template <class type>
+return_type function_name(Parameter list(s)){
+    // function body
+}
+
+it is used for similar type of function on different data types.
+
+
+
+Class Template
+---------------
+
+template <class type>
+
+class class_name{
+    // class body with data members and function(s)
+}
+
+Creaing an object for class template
+-------------------------------------
+class_name <data_type> instance_name;
